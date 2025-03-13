@@ -12,9 +12,9 @@ class GPSTrackingAttendance extends StatefulWidget {
 
 class _GPSTrackingAttendanceState extends State<GPSTrackingAttendance> {
   // Set your predefined location (Office/School GPS Coordinates)
-  final double targetLatitude = 23.863794465127274; // Example: Dhaka, Bangladesh 23.863794465127274, 90.39897328465992
-  final double targetLongitude = 90.39897328465992;
-  final double allowedDistanceInMeters = 50; // 50-meter radius
+  final double targetLatitude = 23.865894135933384; // Example: Dhaka, Bangladesh 23.865894135933384, 90.39981013379146
+  final double targetLongitude = 90.39981013379146;
+  final double allowedDistanceInMeters = 500; // 50-meter radius
 
   bool _isWithinAllowedDistance = false;
   String _currentLocation = "Fetching location...";
